@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0292839F1FEA810100FE6591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0292839E1FEA810100FE6591 /* AppDelegate.swift */; };
+		029283A11FEA810100FE6591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029283A01FEA810100FE6591 /* ViewController.swift */; };
+		029283A41FEA810100FE6591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029283A21FEA810100FE6591 /* Main.storyboard */; };
+		029283A61FEA810100FE6591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029283A51FEA810100FE6591 /* Assets.xcassets */; };
+		029283A91FEA810100FE6591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029283A71FEA810100FE6591 /* LaunchScreen.storyboard */; };
+		029283B41FEA810100FE6591 /* ZJPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029283B31FEA810100FE6591 /* ZJPlayerTests.swift */; };
+		029283BF1FEA810100FE6591 /* ZJPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029283BE1FEA810100FE6591 /* ZJPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029283B01FEA810100FE6591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029283931FEA810100FE6591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0292839A1FEA810100FE6591;
+			remoteInfo = ZJPlayer;
+		};
+		029283BB1FEA810100FE6591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029283931FEA810100FE6591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0292839A1FEA810100FE6591;
+			remoteInfo = ZJPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0292839B1FEA810100FE6591 /* ZJPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0292839E1FEA810100FE6591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		029283A01FEA810100FE6591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		029283A31FEA810100FE6591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029283A51FEA810100FE6591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029283A81FEA810100FE6591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		029283AA1FEA810100FE6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029283AF1FEA810100FE6591 /* ZJPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029283B31FEA810100FE6591 /* ZJPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJPlayerTests.swift; sourceTree = "<group>"; };
+		029283B51FEA810100FE6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029283BA1FEA810100FE6591 /* ZJPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029283BE1FEA810100FE6591 /* ZJPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJPlayerUITests.swift; sourceTree = "<group>"; };
+		029283C01FEA810100FE6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029283981FEA810100FE6591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283AC1FEA810100FE6591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283B71FEA810100FE6591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029283921FEA810100FE6591 = {
+			isa = PBXGroup;
+			children = (
+				0292839D1FEA810100FE6591 /* ZJPlayer */,
+				029283B21FEA810100FE6591 /* ZJPlayerTests */,
+				029283BD1FEA810100FE6591 /* ZJPlayerUITests */,
+				0292839C1FEA810100FE6591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0292839C1FEA810100FE6591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0292839B1FEA810100FE6591 /* ZJPlayer.app */,
+				029283AF1FEA810100FE6591 /* ZJPlayerTests.xctest */,
+				029283BA1FEA810100FE6591 /* ZJPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0292839D1FEA810100FE6591 /* ZJPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0292839E1FEA810100FE6591 /* AppDelegate.swift */,
+				029283A01FEA810100FE6591 /* ViewController.swift */,
+				029283A21FEA810100FE6591 /* Main.storyboard */,
+				029283A51FEA810100FE6591 /* Assets.xcassets */,
+				029283A71FEA810100FE6591 /* LaunchScreen.storyboard */,
+				029283AA1FEA810100FE6591 /* Info.plist */,
+			);
+			path = ZJPlayer;
+			sourceTree = "<group>";
+		};
+		029283B21FEA810100FE6591 /* ZJPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				029283B31FEA810100FE6591 /* ZJPlayerTests.swift */,
+				029283B51FEA810100FE6591 /* Info.plist */,
+			);
+			path = ZJPlayerTests;
+			sourceTree = "<group>";
+		};
+		029283BD1FEA810100FE6591 /* ZJPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				029283BE1FEA810100FE6591 /* ZJPlayerUITests.swift */,
+				029283C01FEA810100FE6591 /* Info.plist */,
+			);
+			path = ZJPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0292839A1FEA810100FE6591 /* ZJPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029283C31FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayer" */;
+			buildPhases = (
+				029283971FEA810100FE6591 /* Sources */,
+				029283981FEA810100FE6591 /* Frameworks */,
+				029283991FEA810100FE6591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJPlayer;
+			productName = ZJPlayer;
+			productReference = 0292839B1FEA810100FE6591 /* ZJPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029283AE1FEA810100FE6591 /* ZJPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029283C61FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayerTests" */;
+			buildPhases = (
+				029283AB1FEA810100FE6591 /* Sources */,
+				029283AC1FEA810100FE6591 /* Frameworks */,
+				029283AD1FEA810100FE6591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029283B11FEA810100FE6591 /* PBXTargetDependency */,
+			);
+			name = ZJPlayerTests;
+			productName = ZJPlayerTests;
+			productReference = 029283AF1FEA810100FE6591 /* ZJPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		029283B91FEA810100FE6591 /* ZJPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029283C91FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayerUITests" */;
+			buildPhases = (
+				029283B61FEA810100FE6591 /* Sources */,
+				029283B71FEA810100FE6591 /* Frameworks */,
+				029283B81FEA810100FE6591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029283BC1FEA810100FE6591 /* PBXTargetDependency */,
+			);
+			name = ZJPlayerUITests;
+			productName = ZJPlayerUITests;
+			productReference = 029283BA1FEA810100FE6591 /* ZJPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029283931FEA810100FE6591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张建";
+				TargetAttributes = {
+					0292839A1FEA810100FE6591 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					029283AE1FEA810100FE6591 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0292839A1FEA810100FE6591;
+					};
+					029283B91FEA810100FE6591 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0292839A1FEA810100FE6591;
+					};
+				};
+			};
+			buildConfigurationList = 029283961FEA810100FE6591 /* Build configuration list for PBXProject "ZJPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 029283921FEA810100FE6591;
+			productRefGroup = 0292839C1FEA810100FE6591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0292839A1FEA810100FE6591 /* ZJPlayer */,
+				029283AE1FEA810100FE6591 /* ZJPlayerTests */,
+				029283B91FEA810100FE6591 /* ZJPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029283991FEA810100FE6591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029283A91FEA810100FE6591 /* LaunchScreen.storyboard in Resources */,
+				029283A61FEA810100FE6591 /* Assets.xcassets in Resources */,
+				029283A41FEA810100FE6591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283AD1FEA810100FE6591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283B81FEA810100FE6591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029283971FEA810100FE6591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029283A11FEA810100FE6591 /* ViewController.swift in Sources */,
+				0292839F1FEA810100FE6591 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283AB1FEA810100FE6591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029283B41FEA810100FE6591 /* ZJPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029283B61FEA810100FE6591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029283BF1FEA810100FE6591 /* ZJPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029283B11FEA810100FE6591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0292839A1FEA810100FE6591 /* ZJPlayer */;
+			targetProxy = 029283B01FEA810100FE6591 /* PBXContainerItemProxy */;
+		};
+		029283BC1FEA810100FE6591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0292839A1FEA810100FE6591 /* ZJPlayer */;
+			targetProxy = 029283BB1FEA810100FE6591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		029283A21FEA810100FE6591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029283A31FEA810100FE6591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		029283A71FEA810100FE6591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029283A81FEA810100FE6591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029283C11FEA810100FE6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		029283C21FEA810100FE6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029283C41FEA810100FE6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		029283C51FEA810100FE6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		029283C71FEA810100FE6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPlayer.app/ZJPlayer";
+			};
+			name = Debug;
+		};
+		029283C81FEA810100FE6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPlayer.app/ZJPlayer";
+			};
+			name = Release;
+		};
+		029283CA1FEA810100FE6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJPlayer;
+			};
+			name = Debug;
+		};
+		029283CB1FEA810100FE6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ3FLUKHX3;
+				INFOPLIST_FILE = ZJPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingfei.ZJPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029283961FEA810100FE6591 /* Build configuration list for PBXProject "ZJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029283C11FEA810100FE6591 /* Debug */,
+				029283C21FEA810100FE6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029283C31FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029283C41FEA810100FE6591 /* Debug */,
+				029283C51FEA810100FE6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029283C61FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029283C71FEA810100FE6591 /* Debug */,
+				029283C81FEA810100FE6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029283C91FEA810100FE6591 /* Build configuration list for PBXNativeTarget "ZJPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029283CA1FEA810100FE6591 /* Debug */,
+				029283CB1FEA810100FE6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029283931FEA810100FE6591 /* Project object */;
+}
